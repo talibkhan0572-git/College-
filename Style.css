@@ -1,0 +1,113 @@
+/* --- Global Styles --- */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #f4f7f6;
+    color: #333;
+}
+
+.container {
+    max-width: 900px;
+    margin: 20px auto;
+    padding: 0 20px;
+}
+
+header {
+    background: #2c3e50;
+    color: #ecf0f1;
+    padding: 30px 20px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+header h1 {
+    margin-bottom: 5px;
+}
+
+footer {
+    text-align: center;
+    margin-top: 40px;
+    padding: 20px;
+    color: #777;
+    font-size: 0.9em;
+}
+
+/* --- Homepage Navigation (index.html) --- */
+nav ul {
+    list-style-type: none;
+}
+
+nav li {
+    margin-bottom: 15px;
+}
+
+nav a {
+    display: block;
+    background: #ffffff;
+    color: #2c3e50;
+    padding: 25px 20px;
+    text-decoration: none;
+    border-radius: 8px;
+    font-size: 1.2em;
+    font-weight: 500;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    transition: all 0.3s ease;
+}
+
+nav a:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+}
+
+/* --- Subject Pages (dsa.html, etc.) --- */
+.back-link {
+    display: inline-block;
+    margin-bottom: 20px;
+    color: #3498db;
+    text-decoration: none;
+    font-weight: 500;
+}
+
+.back-link:hover {
+    text-decoration: underline;
+}
+
+section {
+    background: #ffffff;
+    padding: 25px;
+    margin-bottom: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+}
+
+section h2 {
+    margin-bottom: 15px;
+    padding-bottom: 10px;
+    border-bottom: 2px solid #eee;
+    color: #2c3e50;
+}
+
+section ul {
+    list-style-position: inside;
+    padding-left: 5px;
+}
+
+section li {
+    margin-bottom: 12px;
+}
+
+section a {
+    color: #3498db;
+    text-decoration: none;
+    font-weight: 500;
+}
+
+section a:hover {
+    text-decoration: underline;
+}
