@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>B.Tech CS Study Hub</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header>
+        <h1>B.Tech CS Study Hub</h1>
+        <p>Your central spot for all notes, videos, and PYQs.</p>
+    </header>
+
+    <div class="container">
+        <nav>
+            <h2>Subjects</h2>
+            <ul>
+                <li><a href="dsa.html">Data Structures & Algorithms</a></li>
+                <li><a href="dbms.html">Database Management (DBMS)</a></li>
+                <li><a href="maths.html">Engineering Maths-III</a></li>
+                </ul>
+        </nav>
+    </div>
+
+    <footer>
+        <p>Created by [Your Name] | B.Tech Computer Science</p>
+    </footer>
+
+</body>
+</html><!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Data Structures | CS Study Hub</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header>
+        <h1>Data Structures (DSA)</h1>
+    </header>
+
+    <div class="container">
+        <a href="index.html" class="back-link">&larr; Back to All Subjects</a>
+        
+        <main>
+            <section>
+                <h2>YouTube Playlists</h2>
+                <ul>
+                    <li><a href="[PASTE_YOUTUBE_LINK_HERE]" target="_blank">Full DSA Course by [YouTuber Name]</a></li>
+                    <li><a href="[PASTE_YOUTUBE_LINK_HERE]" target="_blank">Top 50 DSA Interview Questions</a></li>
+                </ul>
+            </section>
+
+            <section>
+                <h2>PDF Notes & Textbooks</h2>
+                <ul>
+                    <li><a href="[PASTE_LINK_TO_PDF_OR_DRIVE]" target="_blank">Professor [Name]'s Unit 1 Notes</a></li>
+                    <li><a href="[PASTE_LINK_TO_PDF_OR_DRIVE]" target="_blank">"Introduction to Algorithms" (CLRS) PDF</a></li>
+                </ul>
+            </section>
+
+            <section>
+                <h2>Previous Year Questions (PYQs)</h2>
+                <ul>
+                    <li><a href="[PASTE_LINK_TO_PDF_OR_DRIVE]" target="_blank">2023 End Semester Paper</a></li>
+                    <li><a href="[PASTE_LINK_TO_PDF_OR_DRIVE]" target="_blank">2022 Mid Semester Paper</a></li>
+                </ul>
+            </section>
+        </main>
+    </div>
+
+    <footer>
+        <p>Created by [Your Name] | B.Tech Computer Science</p>
+    </footer>
+
+</body>
+</html>/* --- Global Styles --- */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #f4f7f6;
+    color: #333;
+}
+
+.container {
+    max-width: 900px;
+    margin: 20px auto;
+    padding: 0 20px;
+}
+
+header {
+    background: #2c3e50;
+    color: #ecf0f1;
+    padding: 30px 20px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+header h1 {
+    margin-bottom: 5px;
+}
+
+footer {
+    text-align: center;
+    margin-top: 40px;
+    padding: 20px;
+    color: #777;
+    font-size: 0.9em;
+}
+
+/* --- Homepage Navigation (index.html) --- */
+nav ul {
+    list-style-type: none;
+}
+
+nav li {
+    margin-bottom: 15px;
+}
+
+nav a {
+    display: block;
+    background: #ffffff;
+    color: #2c3e50;
+    padding: 25px 20px;
+    text-decoration: none;
+    border-radius: 8px;
+    font-size: 1.2em;
+    font-weight: 500;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    transition: all 0.3s ease;
+}
+
+nav a:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+}
+
+/* --- Subject Pages (dsa.html, etc.) --- */
+.back-link {
+    display: inline-block;
+    margin-bottom: 20px;
+    color: #3498db;
+    text-decoration: none;
+    font-weight: 500;
+}
+
+.back-link:hover {
+    text-decoration: underline;
+}
+
+section {
+    background: #ffffff;
+    padding: 25px;
+    margin-bottom: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+}
+
+section h2 {
+    margin-bottom: 15px;
+    padding-bottom: 10px;
+    border-bottom: 2px solid #eee;
+    color: #2c3e50;
+}
+
+section ul {
+    list-style-position: inside;
+    padding-left: 5px;
+}
+
+section li {
+    margin-bottom: 12px;
+}
+
+section a {
+    color: #3498db;
+    text-decoration: none;
+    font-weight: 500;
+}
+
+section a:hover {
+    text-decoration: underline;
+}
